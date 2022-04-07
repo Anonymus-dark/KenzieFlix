@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	font-family: sans-serif;
+}
+.Organizacao_vertical {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap:100px
+}
+.Bloco_perfil {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap:26px;
+}
+.Nome_perfil { 
+	position: absolute;
+	font-size: 14px;
+	color: #9C9C9C;
+	margin-top: 16px;
+	font-weight: 600;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+.Titulo {
+	font-size: 32px;
+	font-weight: 600;
+	color: #FFF;
+}
+.Bloco_perfil li{
+	overflow: hidden;
+	width: 100%;
+	max-width: 160px;
+	max-height: 160px;
+	border-radius: 8px;
+}
+.imagem img {
+	transition: all 0.3s;
+}
+.imagem:hover img {
+	transform: scale(1.2);
+}
+button{
+	padding: 15px 44px;
+	background-color: black;
+	border:1px solid #FFF;
+	color:#FFF;
+}
+button:hover {
+	transition: 1s;
+	background-color: #FFF;
+	color: #000;
+}
